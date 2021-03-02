@@ -1,0 +1,30 @@
+#  https://crontab.guru/ [ refer this article, where you can find the terms of setting cronjobs]
+
+# ┌───────────── minute (0 - 59)
+# │ ┌───────────── hour (0 - 23)
+# │ │ ┌───────────── day of month (1 - 31)
+# │ │ │ ┌───────────── month (1 - 12)
+# │ │ │ │ ┌───────────── day of week (0 - 6) (Sunday to Saturday;
+# │ │ │ │ │                                       7 is also Sunday on some systems)
+# │ │ │ │ │
+# │ │ │ │ │
+# * * * * *  command_to_execute
+
+To check the current user cronjobs, use below cmd
+$ crontab -l ('l' for list)
+$ crontab -e ('e' for edit)
+
+###### Sample crontab ######
+
+# Creat a file.txt at every 2 minutes under temp directory,
+* * * * * echo 'Hello Hi' >> /tmp/test.txt
+
+Explanation: what it does, it will run the 'echo' command on following basis,
+* --> every minute
+* --> every hour
+* --> every day of the month 
+* --> on every month
+* --> on any day of the week
+
+# Empty temp folder every Friday at 5pm
+0 5 * * 5 rm -rf /tmp/*
