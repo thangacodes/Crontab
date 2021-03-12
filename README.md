@@ -1,4 +1,4 @@
-# This repo will shows you to understand the crontab or CRONTABLE setting up in Linux (RHEL 7, 8)
+# This repo will shows you to understand the crontab or CRONTABLE how to setting up in Linux OS like RHEL 7,8 and CentOS
 # CronJobs:
 Cron job is a time-based job scheduler in Unix-like computer operating systems.
 
@@ -28,5 +28,5 @@ $ sudo systemctl status yum-cron.service
 $ sudo chkconfig yum-cron on
 $ sudo service yum-cron start
 
-Happy Learning
+### Happy Learning!!
 
