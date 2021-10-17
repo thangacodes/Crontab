@@ -1,5 +1,4 @@
-#  https://crontab.guru/ [ refer this article, where you can find the terms of setting cronjobs]
-#  https://www.learnsteps.com/logrotate-how-and-why-you-should-use-it-properly/ [refer this article, where you can find deep dive about the crontab and log rotation stuff]
+## Crontab
 
 # ┌───────────── minute (0 - 59)
 # │ ┌───────────── hour (0 - 23)
