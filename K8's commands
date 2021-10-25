@@ -1,0 +1,22 @@
+Run the command: kubectl explain replicaset | grep VERSION and correct the apiVersion for ReplicaSet.
+Then run the command: kubectl create -f /root/replicaset-definition-1.yaml
+
+
+$ kubectl get rs new-replicat-set -o yaml > new-replica-set.yaml
+$ kubectl get rs
+$ kubectl delete rs new-replica-set
+$ kubectl create -f new-replica-set.yaml
+
+$ kubectl scale rs new-replica-set --replicas=5
+$ kubectl get rs
+$ kubectl get pods
+$ kubectl scale rs new-replica-set --replicas=2
+$ kubectl get pods
+
+========================
+
+$ kubectl get all
+$ kubectl create -f deployments.yaml
+$ kubectl get deployments
+$ kubectl describe deployment myapp-deployment
+$ kubectl get all
