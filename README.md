@@ -1,11 +1,15 @@
 # This repo will shows you to understand the crontab or CRONTABLE how to setting up in Linux OS like RHEL 7,8 and CentOS
+
 # CronJobs:
+
 Cron job is a time-based job scheduler in Unix-like computer operating systems.
 
 # Crontab:
+
 The crontab is a list of commands that you want to run on a regular schedule, and also the name of the command used to manage that list.
 
 # Please note:
+
 Prior to setup cronjobs in CentOS / RHEL, we need to take a look at the OS whether the cron package has installed or not.If not, we need to install first and begin the process,
 
 $ yum list updates        --> Display a list of updated software and security fix
