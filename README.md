@@ -22,9 +22,11 @@ $ rpm -qa | grep httpd*   --> Find out if httpd related package installed or not
 $ yum list installed httpd  --> Find out if httpd package installed or not on the system
 
 # cron package is not installed on the system
+***********************************************************************************************************************************************
 $ sudo yum install yum-cron -->  Install yum-cron on a CentOS/RHEL 6.x/7.x OS
 
 # Turn on service using systemctl command on CentOS/RHEL 7.x:
+************************************************************************************************************************************************
 $ sudo systemctl enable yum-cron.service
 $ sudo systemctl start yum-cron.service
 $ sudo systemctl status yum-cron.service
